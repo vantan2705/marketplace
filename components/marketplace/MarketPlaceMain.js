@@ -101,5 +101,37 @@ export default function MarketPlaceMain(props) {
 
       </Box>
     </div>
+    <Box sx={{
+      width: '100%',
+      p: 3,
+      display: 'flex',
+      flexWrap: 'wrap',
+    }}>
+        <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+      <HeroCard color="green" id="424354" price="56045965" image={'/images/hero.jpg'} />
+    </Box>
   </div>
 }
