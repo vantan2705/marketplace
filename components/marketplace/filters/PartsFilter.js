@@ -6,9 +6,17 @@ import Avatar from "@mui/material/Avatar";
 import ListItemText from "@mui/material/ListItemText";
 import * as React from "react";
 import Divider from "@mui/material/Divider";
+import TextField from "@mui/material/TextField";
+import SearchIcon from '@mui/icons-material/Search';
 
 export default function PartsFilter(props) {
   return <Box>
+
+    <Box sx={{ display: 'flex', alignItems: 'flex-end', m: 1, mt: 2 }}>
+      <SearchIcon sx={{ color: 'action.active', mr: 1, my: 0.5 }} />
+      <TextField id="input-with-sx" variant="outlined" size="small" />
+    </Box>
+
     <Box>
       <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
         <ListItem>
