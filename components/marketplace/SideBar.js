@@ -5,6 +5,7 @@ import * as React from "react";
 import GeneralFilter from "./filters/GeneralFilter";
 import TabPanel from "../TabPanel";
 import PartsFilter from "./filters/PartsFilter";
+import StatsFilter from "./filters/StatsFilter";
 
 export default function SideBar() {
   const [filterGroupState, setFilterGroupState] = React.useState(0);
@@ -39,7 +40,7 @@ export default function SideBar() {
       <PartsFilter />
     </TabPanel>
     <TabPanel value={filterGroupState} index={2}>
-      Stats
+      <StatsFilter />
     </TabPanel>
   </Box>
 }
